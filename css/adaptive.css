@@ -1,0 +1,122 @@
+@media (max-width: 992px) {
+    body {
+        padding: 0 0 90px 0;
+        overflow-x: hidden;
+    }
+
+    body.active {
+        overflow-y: hidden;
+    }
+
+    .container {
+        max-width: 317px;
+        margin: 0 auto;
+    }
+
+
+    .lang {
+        display: none;
+    }
+
+    .lang.active {
+        position: fixed;
+        display: block;
+        width: 375px;
+        height: 100%;
+        left: 32%;
+        top: 621px;
+        z-index: 2;
+    }
+
+    .lang.active p {
+        font-size: var(--fontsize-title);
+        transform: rotate(90deg);
+    }
+
+    .lang p {
+        transform: rotate(270deg);
+        font-size: 16px;
+        line-height: 19.81px;
+    }
+
+    .subtitle {
+        position: relative;
+        display: block;
+        padding-top: 0px;
+    }
+
+    .section-one {
+        padding-top: 65px;
+    }
+
+    .mini-about {
+        margin-top: 23px;
+    }
+
+
+    .section-one-img {
+        padding: 0px;
+        display: none;
+    }
+
+    .section-two {
+        padding: 81px 30px 76px 30px;
+    }
+
+    .section-two {
+        display: block;
+    }
+
+    .section-two_disc {
+        display: none;
+        text-align: center;
+        line-height: 21.83px;
+        margin-top: 48px;
+    }
+
+
+    .section-two_disc p:first-child {
+        margin-top: 22px;
+    }
+
+    .section-three_cards {
+        display: block;
+        margin-top: 83px;
+    }
+
+    .card img {
+        margin-left: 45px;
+    }
+
+    .rating {
+        margin-bottom: 40px;
+    }
+
+    .portfolio-block {
+        width: 316px;
+        height: 171px;
+    }
+
+    .portfolio-block img {
+        width: 316px;
+        height: 171px;
+    }
+
+    .portfolio-disk {
+        padding-top: 33px;
+        padding-bottom: 78px;
+    }
+
+    .portfolio-title {
+        padding-bottom: 65px;
+        padding-top: 81px;
+    }
+
+    .footer {
+        padding: 82px 0 90px 0;
+    }
+
+    .social-network {
+        gap: 52px;
+    }
+}
