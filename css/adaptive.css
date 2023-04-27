@@ -56,6 +56,78 @@
 
     .section-one-img {
         padding: 0px;
+    }
+
+    .section-one-img img {
+        max-width: 300px;
+        max-height: 300px;
+    }
+
+    .section-two {
+        padding: 81px 30px 76px 30px;
+    }
+
+    .section-two {
+        display: block;
+    }
+
+    .section-two_disc {
+        text-align: center;
+        line-height: 21.83px;
+        margin-top: 48px;
+    }
+
+
+    .section-two_disc p:first-child {
+        margin-top: 22px;
+    }
+
+    .section-three_cards {
+        display: block;
+        margin-top: 83px;
+    }
+
+    .card img {
+        margin-left: 45px;
+    }
+
+    .rating {
+        margin-bottom: 40px;
+    }
+
+    .portfolio-block {
+        width: 316px;
+        height: 171px;
+    }
+
+    .portfolio-block img {
+        width: 316px;
+        height: 171px;
+    }
+
+    .portfolio-disk {
+        padding-top: 33px;
+        padding-bottom: 78px;
+    }
+
+    .portfolio-title {
+        padding-bottom: 65px;
+        padding-top: 81px;
+    }
+
+    .footer {
+        padding: 82px 0 90px 0;
+    }
+
+    .social-network {
+        gap: 52px;
+    }
+}
+    }
+
+
+    .section-one-img {
+        padding: 0px;
         display: none;
     }
 
